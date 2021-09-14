@@ -1,9 +1,0 @@
----
-layout: post
-title: "Welcome to my blog!"
-date: 2021-08-16 19:07:00
-categories: update
-pin: true
----
-
-Welcome to my blog, content coming soon.
