@@ -4,7 +4,7 @@ description: >-
 layout: post
 title: H@cktivityCon 2021 - Availability Writeup
 date: 2021-09-19 20:00:00
-categories: H@cktivityCon 
+categories: ctf's
 tags: [ctf]
 pin: true
 ---
