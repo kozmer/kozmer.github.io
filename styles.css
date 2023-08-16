@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "basiic";
+    src: url(https://cinni.net/fonts/basiic.ttf);
+}
+
+body {
+    font-family: 'basiic', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('assets/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #eaeaea;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f0f0f;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.blog-link {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #444;
+    transition: background-color 0.2s;
+}
+
+.blog-link:hover {
+    background-color: #555;
+}
+
+.link-container {
+    display: flex;
+    justify-content: space-between;  /* Distribute the links evenly */
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.social-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #eaeaea;
+    font-weight: bold;
+    padding: 10px 0;  /* Adjusted padding to only top and bottom */
+    width: 30%;  /* Divide width equally among the 3 links */
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(68, 68, 68, 0.8);  /* Slight transparency to show background */
+    transition: background-color 0.2s;
+}
+
+.social-link:hover {
+    background-color: rgba(85, 85, 85, 0.8);  /* Slight transparency to show background */
+}
+
+.profile-image {
+    display: block;
+    margin: 30px auto;
+    max-width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 22px rgb(168, 5, 5);
+}
+
+.about-me h2 {
+    margin-top: 20px;
+    color: #fff;
+}
+
+.about-me p {
+    color: #eaeaea;
+}
