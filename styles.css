@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('assets/images/bg.jpg');
+    background-image: url('/assets/images/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -44,7 +44,7 @@ body {
 
 .link-container {
     display: flex;
-    justify-content: space-between;  /* Distribute the links evenly */
+    justify-content: space-between; 
     align-items: center;
     margin-bottom: 20px;
     width: 100%;
@@ -55,16 +55,16 @@ body {
     text-decoration: none;
     color: #eaeaea;
     font-weight: bold;
-    padding: 10px 0;  /* Adjusted padding to only top and bottom */
-    width: 30%;  /* Divide width equally among the 3 links */
+    padding: 10px 0; 
+    width: 30%; 
     text-align: center;
     border-radius: 10px;
-    background-color: rgba(68, 68, 68, 0.8);  /* Slight transparency to show background */
+    background-color: rgba(68, 68, 68, 0.8); 
     transition: background-color 0.2s;
 }
 
 .social-link:hover {
-    background-color: rgba(85, 85, 85, 0.8);  /* Slight transparency to show background */
+    background-color: rgba(85, 85, 85, 0.8); 
 }
 
 .profile-image {
